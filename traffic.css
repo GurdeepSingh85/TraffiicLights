@@ -1,0 +1,93 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+ 
+
+}
+.banner-top{
+    background-color: rgb(11, 11, 98);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 10vh;
+    margin-top: 30px;
+    width:100vw;
+ 
+
+}
+.container{
+    height: 50vh;
+    width: 60vw;
+    border: 3px solid rgb(11, 11, 11);
+    margin: 120px 260px;
+    background-color: rgba(29, 20, 74, 0.876);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    
+
+
+}
+.lights{
+    border: 3px solid gray;
+    border-radius: 50px;
+    background-color: rgb(43, 40, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 3rem;
+
+    
+
+}
+
+
+
+
+#red,#yellow,#green {
+    height: 140px;
+    width: 130px;
+    border: 2px solid black;
+    border-radius: 100px;
+    background-color: white;
+    display: inline-block;
+}
+.colors{
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    
+
+}
+button{
+    height: 50px;
+    width: 200px;
+    border-radius: 40px;
+    margin: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+#r1:hover{
+  background-color: red;
+}
+#y1:hover{
+    background-color: rgb(255, 255, 0);
+}
+#g1:hover{
+    background-color: rgb(50, 153, 50);
+}
+#all:hover{
+    background-color: rgb(218, 175, 255);
+    color: white;
+}
+
+
+
+    
